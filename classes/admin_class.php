@@ -8,9 +8,14 @@ class Admin_Class
 	public function __construct()
 	{
 		$host_name = 'localhost';
-		$user_name = 'wwwsoulsoft_dev';
-		$password = '0pezkIMj*u*.';
-		$db_name = 'wwwsoulsoft_etms_db';
+		$user_name = 'spyderindia_root';
+		$password = 'Soulsoft@2023';
+		$db_name = 'spyderindia_etms_db';
+
+		// $host_name = 'localhost';
+		// $user_name = 'root';
+		// $password = '';
+		// $db_name = 'etms_db';
 
 		try {
 			$connection = new PDO("mysql:host={$host_name}; dbname={$db_name}", $user_name,  $password);

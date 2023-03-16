@@ -1,6 +1,8 @@
 <?php
 
-$mysqli = new mysqli("localhost", "wwwsoulsoft_dev","0pezkIMj*u*.","wwwsoulsoft_etms_db");
+$mysqli = new mysqli("localhost", "spyderindia_root","Soulsoft@2023","spyderindia_etms_db");
+
+//$mysqli = new mysqli("localhost", "root", "", "etms_db");
 
 // Check connection
 if (!$mysqli) {

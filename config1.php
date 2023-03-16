@@ -1,6 +1,8 @@
 <?php
 
-$con = mysqli_connect("localhost", "wwwsoulsoft_dev", "0pezkIMj*u*.", "wwwsoulsoft_etms_db");
+//$con = mysqli_connect("localhost", "root", "", "etms_db");
+
+$con = mysqli_connect("localhost", "spyderindia_root","Soulsoft@2023","spyderindia_etms_db");
 
 // Check connection
 if ($con) {
