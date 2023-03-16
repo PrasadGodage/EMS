@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/wwwsoulsoft/public_html/
+    - export DEPLOYPATH=/home/spyderindia/public_html/
     - /bin/cp * $DEPLOYPATH
